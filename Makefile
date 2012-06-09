@@ -1,14 +1,8 @@
 VERSION = 3
 PATCHLEVEL = 4
-<<<<<<< HEAD
-SUBLEVEL = 0
-EXTRAVERSION = +4.1
-NAME = "The_Reaper"
-=======
-SUBLEVEL = 1
+SUBLEVEL = 2
 EXTRAVERSION =
 NAME = Saber-toothed Squirrel
->>>>>>> f18a511... Linux 3.4.1
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
