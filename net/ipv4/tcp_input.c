@@ -3697,10 +3697,6 @@ static void tcp_send_challenge_ack(struct sock *sk)
 		challenge_timestamp = now;
 		challenge_count = 0;
 	}
-	if (++challenge_count <= sysctl_tcp_challenge_ack_limit) {
-		NET_INC_STATS_BH(sock_net(sk), LINUX_MIB_TCPCHALLENGEACK);
-		tcp_send_ack(sk);
-	}
 }
 
 /* This routine deals with incoming acks, but not outgoing ones. */
